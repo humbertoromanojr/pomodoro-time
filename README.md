@@ -22,6 +22,7 @@ POMODORO TIMER
 - ⚛️ **React Js** — A JavaScript library for building user interfaces :sparkling_heart:
 
 -   [ReactJS](https://reactjs.org/)
+-   [Vite](https://vitejs.dev/guide/)
 -   [TypeScript](https://www.typescriptlang.org/)
 -   [Styled components](https://styled-components.com/)
 
@@ -40,7 +41,7 @@ Start Project
 
 ## Demonstration
 <img 
-  src="https://drive.google.com/uc?export=view&id=1NuOqu6J16ZzO-QlqPcCARIvjTJJGtV1x" width="100%" 
+  src="" width="100%" 
   alt="pomodoro-time"
 />
 <br>
