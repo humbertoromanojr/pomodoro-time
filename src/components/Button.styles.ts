@@ -5,7 +5,7 @@ interface ButtonContainerProps {
     variant: ButtonVariant;
 }
 
-export const ButtonContainer = styled.button`
+export const ButtonContainer = styled.button<ButtonContainerProps>`
     width: 100px;
     height: 40px;
 `
