@@ -30,10 +30,10 @@ POMODORO TIMER
 
 ## Instalation
 Copy project from repository
-`git clone https://github.com/humbertoromanojr/pomodoro-time`
+`git clone https://github.com/humbertoromanojr/pomodoro-time.git`
 
 Install node_modules
-`npm install`
+`npm install or npm i`
 
 Start Project
 `npm run dev`
