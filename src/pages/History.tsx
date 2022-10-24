@@ -1,3 +1,10 @@
+import { Header } from '../components/Header'
+
 export function History() {
-  return <>History page</>
+  return (
+    <>
+      <Header />
+      History page
+    </>
+  )
 }
