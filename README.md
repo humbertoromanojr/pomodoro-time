@@ -28,6 +28,7 @@ POMODORO TIMER
 -   [ESLint](https://eslint.org/)
 -   [React Router](https://reactrouter.com/en/main)
 -   [Phosphor Icons](https://phosphoricons.com/)
+-   [React Hook Form](https://react-hook-form.com/)
 
 
 ## Instalation
