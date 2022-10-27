@@ -1,5 +1,7 @@
 import { useForm } from 'react-hook-form'
 import { Play } from 'phosphor-react'
+import * as zod from 'zod'
+import { zodResolver } from '@hookform/resolvers/zod'
 
 import {
   CountdownContainer,
