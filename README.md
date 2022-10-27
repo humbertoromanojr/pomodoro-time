@@ -29,6 +29,8 @@ POMODORO TIMER
 -   [React Router](https://reactrouter.com/en/main)
 -   [Phosphor Icons](https://phosphoricons.com/)
 -   [React Hook Form](https://react-hook-form.com/)
+-   [Hookform/resolvers](https://github.com/react-hook-form/resolvers)
+-   [Zod](https://github.com/colinhacks/zod)
 
 
 ## Instalation
