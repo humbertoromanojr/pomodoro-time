@@ -12,11 +12,14 @@ import {
 } from './styles'
 
 export function Home() {
-  const { register, handleSubmit } = useForm()
+  const { register, handleSubmit, watch } = useForm()
 
   function handleCreateNewCycle(data: any) {
     console.log(data)
   }
+
+  const isFieldTaskEmpty = watch('task')
+  const isFieldMinutesAmountEmpty = watch('minutesAmount')
 
   return (
     <HomeContainer>
@@ -27,6 +30,7 @@ export function Home() {
             id="task"
             list="task-suggestions"
             type="text"
+            required
             placeholder="Dê um nome para o seu projeto"
             {...register('task')}
           />
@@ -42,6 +46,7 @@ export function Home() {
           <MinutesAmountInput
             id="minutesAmount"
             type="number"
+            required
             placeholder="00"
             step={10}
             min={10}
@@ -60,7 +65,10 @@ export function Home() {
           <span>0</span>
         </CountdownContainer>
 
-        <StartCountdownButton /* disabled={!task} */ type="submit">
+        <StartCountdownButton
+          disabled={!isFieldTaskEmpty && !isFieldMinutesAmountEmpty}
+          type="submit"
+        >
           <Play size={24} />
           Começar
         </StartCountdownButton>
