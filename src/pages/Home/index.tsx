@@ -111,6 +111,7 @@ export function Home() {
             id="task"
             list="task-suggestions"
             type="text"
+            disabled={!!activeCycle}
             placeholder="Dê um nome para o seu projeto"
             {...register('task')}
           />
@@ -130,6 +131,7 @@ export function Home() {
             step={10}
             min={10}
             max={60}
+            disabled={!!activeCycle}
             {...register('minutesAmount', { valueAsNumber: true })}
           />
 
