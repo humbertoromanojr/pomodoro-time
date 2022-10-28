@@ -31,6 +31,7 @@ POMODORO TIMER
 -   [React Hook Form](https://react-hook-form.com/)
 -   [Hookform/resolvers](https://github.com/react-hook-form/resolvers)
 -   [Zod](https://github.com/colinhacks/zod)
+-   [Date-fns](https://date-fns.org/)
 
 
 ## Instalation
