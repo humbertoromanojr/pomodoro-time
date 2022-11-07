@@ -35,21 +35,18 @@ POMODORO TIMER
 
 
 ## Instalation
-Copy project from repository
-`git clone https://github.com/humbertoromanojr/pomodoro-time.git`
+Copy project from repository <br />
+✅ `git clone https://github.com/humbertoromanojr/pomodoro-time.git`
 
-Install node_modules
-`npm install or npm i`
+Install node_modules <br />
+✅ `npm install or npm i`
 
-Start Project
-`npm run dev`
+Start Project <br />
+✅ `npm run dev`
 
 
 ## Demonstration
-<img 
-  src="" width="100%" 
-  alt="pomodoro-time"
-/>
+<img src="https://drive.google.com/uc?export=view&id=1DeAXGAtjnjzQkkifPyG0YXISiN08uNB2" alt="pomodoro-time" width="100%" border="0" />
 <br>
 
 
