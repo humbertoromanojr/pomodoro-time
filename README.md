@@ -4,7 +4,7 @@
 POMODORO TIMER
 </h1> 
 
-> Status from Project: 🚧 Under construction 🚧  👷‍♂️ 
+> Status from Project: 👨‍💻 Finished 👨‍💻
 ##
 
 ## Shields
