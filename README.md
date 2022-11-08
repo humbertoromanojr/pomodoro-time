@@ -32,6 +32,7 @@ POMODORO TIMER
 -   [Hookform/resolvers](https://github.com/react-hook-form/resolvers)
 -   [Zod](https://github.com/colinhacks/zod)
 -   [Date-fns](https://date-fns.org/)
+-   [Immer](https://github.com/immerjs/immer)
 
 
 ## Instalation
